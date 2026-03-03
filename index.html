@@ -261,65 +261,6 @@
             font-weight: 700;
             flex-shrink: 0;
         }
-        .bundle-price {
-            border-top: 1px solid var(--border);
-            padding-top: 20px;
-            margin-bottom: 20px;
-        }
-        .bundle-price .setup {
-            font-size: 26px;
-            font-weight: 700;
-            color: var(--primary);
-        }
-        .bundle-price .monthly {
-            font-size: 14px;
-            color: var(--secondary);
-            margin-top: 4px;
-        }
-        .bundle-cta {
-            display: block;
-            text-align: center;
-            background: var(--accent);
-            color: white;
-            padding: 12px 20px;
-            border-radius: 6px;
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 15px;
-            transition: opacity 0.2s;
-        }
-        .bundle-cta:hover { opacity: 0.88; }
-
-        /* FULL PLATFORM */
-        .full-platform {
-            background: var(--light-bg);
-            border: 1px solid var(--border);
-            border-radius: 12px;
-            padding: 40px;
-            text-align: center;
-            margin-top: 28px;
-        }
-        .full-platform h3 {
-            font-size: 22px;
-            font-weight: 700;
-            margin-bottom: 10px;
-        }
-        .full-platform p {
-            color: var(--secondary);
-            margin-bottom: 20px;
-            font-size: 15px;
-        }
-        .full-platform .price {
-            font-size: 28px;
-            font-weight: 700;
-            color: var(--primary);
-            margin-bottom: 20px;
-        }
-        .full-platform .price span {
-            font-size: 16px;
-            font-weight: 400;
-            color: var(--secondary);
-        }
 
         /* HOW IT WORKS */
         .how-section {
@@ -533,8 +474,8 @@
     <!-- BUNDLES -->
     <div class="bundles-section" id="bundles">
         <div class="section-header">
-            <h2>Pick Your Pain Point</h2>
-            <p>Three focused automation bundles built for HVAC, plumbing, and contractor businesses.</p>
+            <h2>What We Automate</h2>
+            <p>Three focused bundles built for HVAC, plumbing, and contractor businesses.</p>
         </div>
 
         <div class="bundles">
@@ -550,11 +491,6 @@
                     <li>Lead logging in HubSpot or Airtable</li>
                     <li>Owner alert for hot leads</li>
                 </ul>
-                <div class="bundle-price">
-                    <div class="setup">$2,500 setup</div>
-                    <div class="monthly">+ $450/month</div>
-                </div>
-                <a href="#contact" class="bundle-cta">Get Started</a>
             </div>
 
             <div class="bundle">
@@ -568,11 +504,6 @@
                     <li>Payment follow-up if invoice goes unpaid</li>
                     <li>Quote generation from tech's field notes</li>
                 </ul>
-                <div class="bundle-price">
-                    <div class="setup">$3,000 setup</div>
-                    <div class="monthly">+ $550/month</div>
-                </div>
-                <a href="#contact" class="bundle-cta">Get Started</a>
             </div>
 
             <div class="bundle">
@@ -586,20 +517,8 @@
                     <li>AI-drafted Google review responses</li>
                     <li>Review + repeat booking tracking in Airtable</li>
                 </ul>
-                <div class="bundle-price">
-                    <div class="setup">$2,500 setup</div>
-                    <div class="monthly">+ $400/month</div>
-                </div>
-                <a href="#contact" class="bundle-cta">Get Started</a>
             </div>
 
-        </div>
-
-        <div class="full-platform">
-            <h3>Want everything automated end to end?</h3>
-            <p>All 9 automations, fully connected — from first lead to repeat customer.</p>
-            <div class="price">$7,000 setup <span>+ $1,200/month</span></div>
-            <a href="#contact" class="bundle-cta" style="display:inline-block; padding: 12px 32px;">Talk to Us About the Full Platform</a>
         </div>
     </div>
 
@@ -614,7 +533,7 @@
                 <div class="step">
                     <div class="step-num">1</div>
                     <h3>Free Workflow Audit</h3>
-                    <p>We spend 20 minutes learning what tools you use, where work falls through the cracks, and which bundle fits your biggest pain point right now.</p>
+                    <p>We spend 20 minutes learning what tools you use, where work falls through the cracks, and which automation fits your biggest pain point.</p>
                 </div>
                 <div class="step">
                     <div class="step-num">2</div>
@@ -664,7 +583,7 @@
     <div class="contact-section" id="contact">
         <div class="cta-box">
             <h2>Book a Free 20-Min Workflow Audit</h2>
-            <p class="subtitle">Tell us what tools you use and where things break down. We'll show you exactly what we'd automate — and what it would cost.</p>
+            <p class="subtitle">Tell us what tools you use and where things break down. We'll show you exactly what we can automate for your business.</p>
 
             <form id="contactForm" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
                 <input type="hidden" name="form-name" value="contact">
