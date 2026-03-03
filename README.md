@@ -1,10 +1,8 @@
 # Catalyst Landing Page
 
-Make.com workflow automation for HVAC, plumbing, and contractor businesses.
-
 ## What's Inside
 
-- `index.html` — Main landing page with all bundles and pricing
+- `index.html` — Main landing page with all bundles
 - `README.md` — This file
 
 ## Deploy
